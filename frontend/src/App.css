@@ -1,0 +1,95 @@
+.header {
+  border-bottom: 1px solid #eaebeb;
+  height: 60px;
+}
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  height: 60px;
+}
+
+h1 {
+  font-size: 30px;
+}
+.restaurant-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.restaurant-info > img {
+  width: 350px;
+  border-radius: 10px;
+}
+
+.grey-back {
+  background-color: #f4f5f5;
+}
+
+.restaurant-details {
+  display: flex;
+  flex-direction: row;
+}
+
+.basket {
+  width: 350px;
+}
+
+.meals {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.meals-container {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.meal-container {
+  width: 400px;
+  height: 150px;
+  margin-bottom: 20px;
+  flex-direction: row;
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.meal-container > img {
+  width: 130px;
+  height: 130px;
+  border-radius: 10px;
+}
+
+.meal-container > div {
+  display: flex;
+  flex: 1;
+}
+
+.meal-horizontal {
+  display: flex;
+  flex-direction: row;
+}
+
+.meal-description {
+  max-height: 200px;
+  overflow: hidden;
+}
+
+.basket {
+  background-color: white;
+  height: 185px;
+}
+.text-description {
+  color: grey;
+  line-height: 20px;
+  font-size: 16px;
+  display: box;
+  line-clamp: 3;
+  box-orient: vertical;
+}
